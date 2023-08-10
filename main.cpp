@@ -10,7 +10,7 @@ void reverse(int arr[], int n)     // reverse the array
     while (start <= end)        // for odd number array at centre  start = end 
                                 // for even number array start < end
     {
-        swap(arr[start], arr[end]);f
+        swap(arr[start], arr[end]);
         start++;
         end--;
     }  
